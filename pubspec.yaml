@@ -1,0 +1,27 @@
+name: clean_arch_auto_router
+description: "Skeleton clean arch with auto_router"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  auth_presentation:
+    path: features/auth/auth_presentation
+  dashboard_presentation:
+    path: features/dashboard/dashboard_presentation
+  common:
+    path: shared/common
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  auto_route_generator:
+  build_runner:
+flutter:
+  uses-material-design: true

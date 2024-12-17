@@ -1,0 +1,24 @@
+name: auth_presentation
+description: "auth presentation layer"
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../../../shared/common
+  dashboard_presentation:
+    path: ../../../features/dashboard/dashboard_presentation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  auto_route_generator:
+  build_runner:
+flutter:
